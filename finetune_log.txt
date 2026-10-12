@@ -1,0 +1,229 @@
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\e3nn\o3\_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+2026-10-12 16:22:00.382 INFO: ===========VERIFYING SETTINGS===========
+2026-10-12 16:22:00.382 INFO: MACE version: 0.3.15
+2026-10-12 16:22:01.712 INFO: CUDA version: 13.0, CUDA device: 0
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\mace\cli\run_train.py:168: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  model_foundation = torch.load(
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+2026-10-12 16:22:02.546 INFO: Using foundation model MACEField-MH-0-omat-dielectric.model as initial checkpoint.
+2026-10-12 16:22:02.547 INFO: Multihead finetuning mode, setting learning rate to 0.0001 and EMA to True. To use a different learning rate, set --force_mh_ft_lr=True.
+2026-10-12 16:22:02.547 INFO: Using multiheads finetuning mode, setting learning rate to 0.0001 and EMA to True
+2026-10-12 16:22:02.547 WARNING: Mutlihead finetuning with models with more than one head is not supported, using the head pt_head as foundation head.
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\mace\modules\models.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "atomic_numbers", torch.tensor(atomic_numbers, dtype=torch.int64)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+2026-10-12 16:22:05.668 INFO: ===========LOADING INPUT DATA===========
+2026-10-12 16:22:05.669 INFO: Using heads: ['si_dielectric', 'pt_head']
+2026-10-12 16:22:05.669 INFO: Using the key specifications to parse data:
+2026-10-12 16:22:05.669 INFO: si_dielectric: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'electric_field': 'REF_electric_field', 'polarization': 'REF_polarization', 'polarizability': 'REF_polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges', 'becs': 'REF_becs'})
+2026-10-12 16:22:05.669 INFO: pt_head: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'electric_field': 'REF_electric_field', 'polarization': 'REF_polarization', 'polarizability': 'REF_polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges', 'becs': 'REF_becs'})
+2026-10-12 16:22:05.669 INFO: =============    Processing head si_dielectric     ===========
+2026-10-12 16:22:05.695 INFO: Training set 1/1 [energy: 12, stress: 12, virials: 0, dipole components: 0, head: 12, elec_temp: 0, total_charge: 0, electric_field: 12, polarization: 12, polarizability: 12, total_spin: 0, forces: 12, charges: 0, becs: 12]
+2026-10-12 16:22:05.696 INFO: Total Training set [energy: 12, stress: 12, virials: 0, dipole components: 0, head: 12, elec_temp: 0, total_charge: 0, electric_field: 12, polarization: 12, polarizability: 12, total_spin: 0, forces: 12, charges: 0, becs: 12]
+2026-10-12 16:22:05.696 INFO: No validation set provided, splitting training data instead.
+2026-10-12 16:22:05.696 INFO: Using random 10% of training set for validation with following indices: [9]
+2026-10-12 16:22:05.696 INFO: Random Split Training set [energy: 11, stress: 11, virials: 0, dipole components: 0, head: 11, elec_temp: 0, total_charge: 0, electric_field: 11, polarization: 11, polarizability: 11, total_spin: 0, forces: 11, charges: 0, becs: 11]
+2026-10-12 16:22:05.696 INFO: Random Split Validation set [energy: 1, stress: 1, virials: 0, dipole components: 0, head: 1, elec_temp: 0, total_charge: 0, electric_field: 1, polarization: 1, polarizability: 1, total_spin: 0, forces: 1, charges: 0, becs: 1]
+2026-10-12 16:22:05.697 INFO: Total number of configurations: train=11, valid=1, tests=[],
+2026-10-12 16:22:05.697 INFO: =============    Processing head pt_head     ===========
+2026-10-12 16:22:05.746 INFO: Training set 1/1 [energy: 150, stress: 0, virials: 0, dipole components: 0, head: 150, elec_temp: 0, total_charge: 0, electric_field: 0, polarization: 0, polarizability: 0, total_spin: 0, forces: 150, charges: 0, becs: 0]
+2026-10-12 16:22:05.747 INFO: Total Training set [energy: 150, stress: 0, virials: 0, dipole components: 0, head: 150, elec_temp: 0, total_charge: 0, electric_field: 0, polarization: 0, polarizability: 0, total_spin: 0, forces: 150, charges: 0, becs: 0]
+2026-10-12 16:22:05.747 INFO: No validation set provided, splitting training data instead.
+2026-10-12 16:22:05.748 INFO: Using random 10% of training set for validation with indices saved in: .\MACE_Si_macefield_finetuned_valid_indices_123.txt
+2026-10-12 16:22:05.749 INFO: Random Split Training set [energy: 135, stress: 0, virials: 0, dipole components: 0, head: 135, elec_temp: 0, total_charge: 0, electric_field: 0, polarization: 0, polarizability: 0, total_spin: 0, forces: 135, charges: 0, becs: 0]
+2026-10-12 16:22:05.749 INFO: Random Split Validation set [energy: 15, stress: 0, virials: 0, dipole components: 0, head: 15, elec_temp: 0, total_charge: 0, electric_field: 0, polarization: 0, polarizability: 0, total_spin: 0, forces: 15, charges: 0, becs: 0]
+2026-10-12 16:22:05.749 INFO: Total number of configurations: train=135, valid=15, tests=[],
+2026-10-12 16:22:05.749 INFO: ==================Using multiheads finetuning mode==================
+2026-10-12 16:22:05.750 WARNING: Ratio of the number of configurations in the training set and the in the pt_train_file is 0.08148148148148149, increasing the number of configurations in the fine-tuning heads by 1
+2026-10-12 16:22:05.750 INFO: Total number of configurations in pretraining: train=135, valid=15
+2026-10-12 16:22:05.750 INFO: Atomic Numbers used: [np.int64(14)]
+2026-10-12 16:22:05.756 INFO: Atomic Energies used (z: eV) for head si_dielectric: {14: -0.855378270149231}
+2026-10-12 16:22:05.756 INFO: Atomic Energies used (z: eV) for head pt_head: {14: -0.855378270149231}
+2026-10-12 16:22:05.756 INFO: Processing datasets for head 'si_dielectric'
+2026-10-12 16:22:05.770 INFO: Combining 1 list datasets for head 'si_dielectric'
+2026-10-12 16:22:05.771 INFO: Head 'si_dielectric' training dataset size: 22
+2026-10-12 16:22:05.772 INFO: Processing datasets for head 'pt_head'
+2026-10-12 16:22:05.772 INFO: =============    Pseudolabeling for pt_head    ===========
+2026-10-12 16:22:05.772 INFO: Applying pseudolabels to pt_head configurations using foundation model
+2026-10-12 16:22:05.797 INFO: Using foundation model's atomic numbers for pseudolabeling: [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 90, 92]
+2026-10-12 16:22:05.797 INFO: Generating pseudolabels for 135 pt_head training configurations
+2026-10-12 16:22:18.379 INFO: Generated pseudolabels for 135 configurations
+2026-10-12 16:22:18.380 INFO: Successfully applied pseudolabels to 135 training configurations
+2026-10-12 16:22:18.380 INFO: Generating pseudolabels for 15 pt_head validation configurations
+2026-10-12 16:22:19.448 INFO: Generated pseudolabels for 15 configurations
+2026-10-12 16:22:19.448 INFO: Successfully applied pseudolabels to 15 validation configurations
+2026-10-12 16:22:19.449 INFO: Successfully applied pseudolabels to pt_head configurations
+2026-10-12 16:22:19.509 INFO: Combining 1 list datasets for head 'pt_head'
+2026-10-12 16:22:19.516 INFO: Head 'pt_head' training dataset size: 135
+2026-10-12 16:22:19.516 INFO: Average number of neighbors: 61.964672446250916
+2026-10-12 16:22:19.517 INFO: During training the following quantities will be reported: energy, forces, stress, polarization, becs, polarizability
+2026-10-12 16:22:19.517 INFO: ===========MODEL DETAILS===========
+2026-10-12 16:22:19.922 WARNING: Standard deviation of the scaling is zero, Changing to no scaling
+2026-10-12 16:22:19.923 INFO: Loading FOUNDATION model
+2026-10-12 16:22:19.924 INFO: Using filtered elements: [np.int64(14)]
+2026-10-12 16:22:19.924 INFO: Model configuration extracted from foundation model
+2026-10-12 16:22:19.924 INFO: Using universal_field loss function for fine-tuning
+2026-10-12 16:22:19.924 INFO: Message passing with hidden irreps 128x0e+128x1o)
+2026-10-12 16:22:19.924 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2026-10-12 16:22:19.924 INFO: Radial cutoff: 6.0 A (total receptive field for each atom: 12.0 A)
+2026-10-12 16:22:19.924 INFO: Distance transform for radial basis functions: Agnesi
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+F:\Anaconda\envs\dielectric-ai\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+F:\Anaconda\envs\dielectric-ai\Lib\ast.py:506: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+2026-10-12 16:22:22.859 INFO: Total number of parameters: 626654
+2026-10-12 16:22:22.859 INFO: 
+2026-10-12 16:22:22.859 INFO: ===========OPTIMIZER INFORMATION===========
+2026-10-12 16:22:22.859 INFO: Using ADAM as parameter optimizer
+2026-10-12 16:22:22.859 INFO: Batch size: 1
+2026-10-12 16:22:22.859 INFO: Using Exponential Moving Average with decay: 0.99999
+2026-10-12 16:22:22.860 INFO: Number of gradient updates: 7850
+2026-10-12 16:22:22.860 INFO: Learning rate: 0.0001, weight decay: 5e-07
+2026-10-12 16:22:22.861 INFO: UniversalFieldLoss()
+2026-10-12 16:22:22.864 INFO: Using gradient clipping with tolerance=10.000
+2026-10-12 16:22:22.864 INFO: 
+2026-10-12 16:22:22.864 INFO: ===========TRAINING===========
+2026-10-12 16:22:22.864 INFO: Started training, reporting errors on validation set
+2026-10-12 16:22:22.864 INFO: Loss metrics on validation set
+2026-10-12 16:22:27.261 INFO: Initial: head: pt_head, loss=0.00000000, RMSE_E_per_atom=0.00032574 meV, RMSE_F=0.00149083 meV / A, RMSE_stress=None meV / A^3, RMSE_polarization=None m|e| / A^2, RMSE_becs=None |e|, RMSE_polarizability=None ¦Å0
+2026-10-12 16:22:28.538 INFO: Initial: head: si_dielectric, loss=0.28420708, RMSE_E_per_atom=3399.55329895 meV, RMSE_F=35.01738235 meV / A, RMSE_stress=5.04680770 meV / A^3, RMSE_polarization=0.00000568 m|e| / A^2, RMSE_becs=0.22881776 |e|, RMSE_polarizability=0.15406014 ¦Å0
+2026-10-12 16:24:56.326 INFO: Epoch 0: head: pt_head, loss=0.00071156, RMSE_E_per_atom=7.02988403 meV, RMSE_F=13.51914462 meV / A, RMSE_stress=None meV / A^3, RMSE_polarization=None m|e| / A^2, RMSE_becs=None |e|, RMSE_polarizability=None ¦Å0
+2026-10-12 16:24:57.013 INFO: Epoch 0: head: si_dielectric, loss=0.35809430, RMSE_E_per_atom=3400.40397644 meV, RMSE_F=8.85438733 meV / A, RMSE_stress=3.96561669 meV / A^3, RMSE_polarization=0.00000693 m|e| / A^2, RMSE_becs=0.10554825 |e|, RMSE_polarizability=0.45452923 ¦Å0
+2026-10-12 16:27:22.675 INFO: Epoch 1: head: pt_head, loss=0.00068059, RMSE_E_per_atom=7.24759093 meV, RMSE_F=12.57050224 meV / A, RMSE_stress=None meV / A^3, RMSE_polarization=None m|e| / A^2, RMSE_becs=None |e|, RMSE_polarizability=None ¦Å0
+2026-10-12 16:27:23.396 INFO: Epoch 1: head: si_dielectric, loss=0.16861731, RMSE_E_per_atom=3394.14906502 meV, RMSE_F=4.22130851 meV / A, RMSE_stress=5.01448428 meV / A^3, RMSE_polarization=0.00001195 m|e| / A^2, RMSE_becs=0.06179196 |e|, RMSE_polarizability=0.17655838 ¦Å0
+2026-10-12 16:29:27.580 INFO: Epoch 2: head: pt_head, loss=0.00067983, RMSE_E_per_atom=6.86431583 meV, RMSE_F=13.12972233 meV / A, RMSE_stress=None meV / A^3, RMSE_polarization=None m|e| / A^2, RMSE_becs=None |e|, RMSE_polarizability=None ¦Å0
+2026-10-12 16:29:28.267 INFO: Epoch 2: head: si_dielectric, loss=0.21606863, RMSE_E_per_atom=3403.05685997 meV, RMSE_F=10.70991717 meV / A, RMSE_stress=4.98954579 meV / A^3, RMSE_polarization=0.00001418 m|e| / A^2, RMSE_becs=0.02608608 |e|, RMSE_polarizability=0.28853068 ¦Å0
