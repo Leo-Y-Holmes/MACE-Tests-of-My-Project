@@ -10,10 +10,10 @@ ANG = 1e-10                    # 1 Angstrom = 1e-10 m
 EV_PER_A2_TO_J_PER_M2 = EV / ANG ** 2   # 1 eV/Angstrom^2 -> 16.02 J/m^2
 
 # ============ 2. 模型与结构设置 ============
-MODEL_PATH = "MACEField-MH-0-omat-dielectric.model"
+MODEL_PATH =  "MACE_Si_macefield_finetuned.model" 
 MODEL_URL = ("https://github.com/mdi-group/mace-field/releases/download/"
              "1.0.2/MACEField-MH-0-omat-dielectric.model")
-HEAD = "pt_head"               # 该预训练模型的介电/回放头
+HEAD = "si_dielectric"                # 该预训练模型的介电/回放头
 DEVICE = "cuda"                # 无 GPU 时改成 "cpu"
 DEFAULT_DTYPE = "float32"      # 与预训练模型一致
 
@@ -144,6 +144,8 @@ def scalar(eps):
 
 # ============ 4. 主流程 ============
 def main():
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))  # 切到脚本目录，确保相对路径(模型文件)正确
+
     # ---- 检查模型文件 ----
     if not os.path.isfile(MODEL_PATH):
         raise SystemExit(
